@@ -15,9 +15,6 @@ header
     font-size:large;
     border:1px solid rgb(119, 119, 119);
     border-radius:10px;
-
-    
-
 }
 nav
 {
@@ -27,8 +24,7 @@ nav
     margin: 7px 15px 15px 15px;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: .3fr .5fr .5fr .5fr .5fr .5fr 3fr .5fr .5fr;
-    
+    grid-template-columns: .3fr .5fr .5fr .5fr .5fr .5fr 3fr .5fr .5fr;  
 }
 #span1
 {
@@ -123,7 +119,7 @@ footer
     border:1px solid rgb(119, 119, 119);
     border-radius:10px;
     text-align: center;
-    padding: 20px;
+    padding: 14px;
 }
 section div
 {
