@@ -1,0 +1,168 @@
+body
+{
+    background: #ecf8d5;
+    display: grid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    grid-gap: 10px;
+   
+}
+header
+{
+    background: rgb(170, 170, 170);
+    display: grid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+
+    
+
+}
+nav
+{
+    background: rgb(199, 199, 199);
+    border:1px solid rgb(119, 119, 119);
+    border-radius:5px;
+    margin: 7px 15px 15px 15px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: .3fr .5fr .5fr .5fr .5fr .5fr 3fr .5fr .5fr;
+    
+}
+#span1
+{
+    background-color: rgb(199, 199, 199);
+    border:0px;
+    border-radius:1px;
+    font-size:large;
+}
+#span9
+{
+    background-color: rgb(199, 199, 199);
+    border:0px;
+    border-radius:1px;
+}
+ nav span
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    text-align: center;
+    background-color: #f8f7b1;
+    border:1px solid rgb(119, 119, 119);
+    border-radius:4px;
+    display: grid;
+    margin: 2px 2px 2px 2px;  
+} 
+main
+{
+    background: rgb(170, 170, 170);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+    display: grid;
+    grid-gap: 7px;
+    /* grid-template-columns: .1fr 1fr;  */
+    grid-template-rows:0fr 3.7fr 1fr; 
+    text-align: center;
+}
+#maintext
+{
+    /* margin: 1em; */
+    display:grid;
+    grid-column: 1/20;
+    grid-row: 1/2;
+
+}
+#section1
+{
+    display:grid;
+    grid-row: 1/10;
+    grid-column: 1/2;
+
+}
+section
+{
+    background: rgb(199, 199, 199);
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+    display:grid;
+    grid-column: 1/19; 
+    margin-left: 17px;
+}
+aside
+{
+    display:grid;
+    grid-column: 19/20;
+    grid-row: 2/4;
+    background: rgb(199, 199, 199);
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+    margin:0px 15px 15px 0px;
+    grid-gap: 5px;
+}
+#imgs
+{
+    background: rgb(199, 199, 199);
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+    display:grid;
+    grid-column: 1/19;
+    grid-row: 3/4;
+    background: rgb(199, 199, 199);
+    margin: 0px 0px 15px 15px;
+    padding: 17px 0px 17px 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+footer
+{
+    background: rgb(170, 170, 170);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+    text-align: center;
+    padding: 20px;
+}
+section div
+{
+    background:#F0F9FA;;
+    border:1px solid rgb(119, 119, 119);
+    border-radius:10px;
+    padding-top: 40px;
+}
+#papa1
+{
+    display:grid;
+    grid-row: 2/6;
+    grid-column:1/6 ;
+    border:0px solid rgb(119, 119, 119);
+    border-radius:0px;
+    background: rgb(199, 199, 199);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px 5px 15px 5px;
+    grid-gap: 70px;
+}
+#papa2
+{
+    display:grid;
+    grid-row: 6/10;
+    grid-column:1/6 ;
+    background:rgb(199, 199, 199);
+    border:0px solid rgb(119, 119, 119);
+    border-radius:0px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 640px;
+    margin: 0px 150px 15px 150px;
+}
+aside a
+{
+    background: #FFD9B3;
+    border:1px solid rgb(119, 119, 119);
+    border-radius:5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 5px 5px 5px;  
+    padding-top: 27px;
+}
